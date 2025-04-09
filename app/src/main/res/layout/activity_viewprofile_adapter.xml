@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Name"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#565555"
+                />
+
+            <TextView
+                android:id="@+id/employeeNamevi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="Employee Name"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#C8B6FF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Companyname"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#250095"
+                />
+
+            <TextView
+                android:id="@+id/companynamevi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Company Name"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#450DEF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Company Address"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#450DEF"
+                />
+
+            <TextView
+                android:id="@+id/addressvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Company Address"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+            <View
+
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#450DEF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tagline"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#450DEF"
+                />
+
+            <TextView
+                android:id="@+id/taglinevi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Tagline"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+
+            <View
+
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:textColor="#450DEF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#450DEF"
+
+                />
+
+            <TextView
+                android:id="@+id/descriptionvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Description"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:textColor="#450DEF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone No"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#450DEF"
+                />
+
+            <TextView
+                android:id="@+id/phnovi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Phone No"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#450DEF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="15dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:textColor="#450DEF"
+                />
+
+            <TextView
+                android:id="@+id/emailvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingBottom="10dp"
+                android:text="Email"
+                android:textColor="#450DEF"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="200dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#450DEF"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

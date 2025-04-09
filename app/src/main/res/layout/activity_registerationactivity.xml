@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registerationactivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/merriweather"
+            android:text="Registeration"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/registerationimg1"
+            android:layout_width="101dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="35dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/registercompany" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/username"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:shadowColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerationimg1" />
+
+        <EditText
+            android:id="@+id/registercompanyname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/company"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint="Company Name"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:shadowColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <EditText
+            android:id="@+id/registercompanyaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/companyaddress"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint="Company Address"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:shadowColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registercompanyname" />
+
+        <EditText
+            android:id="@+id/taglinet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/tagline"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint=" Tagline"
+            android:inputType="textPersonName"
+            android:padding="15dp"
+            android:shadowColor="@color/primaryTextColor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registercompanyaddress" />
+
+        <EditText
+            android:id="@+id/registerdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/description"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint=" Description"
+            android:inputType="textMultiLine"
+            android:padding="15dp"
+            android:shadowColor="#3A00FF"
+            app:layout_constraintBottom_toTopOf="@+id/registerphno"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/taglinet"
+            app:layout_constraintVertical_bias="0.459" />
+
+        <EditText
+            android:id="@+id/registerphno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/phone"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint=" Phone No"
+            android:inputType="number"
+            android:padding="15dp"
+            android:shadowColor="#3A00FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerdesc" />
+
+        <EditText
+            android:id="@+id/registeremail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/email"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint=" Email"
+            android:inputType="text|textEmailAddress"
+            android:padding="15dp"
+            android:shadowColor="#3A00FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerphno" />
+
+        <EditText
+            android:id="@+id/registerpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:background="@drawable/whiteback"
+            android:drawableStart="@drawable/password"
+            android:elevation="15dp"
+            android:ems="10"
+            android:hint=" Password"
+            android:inputType="text|textPassword"
+            android:padding="15dp"
+            android:shadowColor="#00C4FF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registeremail" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:background="@color/primaryTextColor"
+            android:backgroundTint="#016AFE"
+            android:elevation="10dp"
+            android:fontFamily="@font/merriweather"
+            android:text="SignUp"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerpassword" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lobster_regular"
+            android:text="Signin"
+            android:textColor="#F40000"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/lobster_regular"
+            android:text="Already Have an Account?"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="38dp"
+            android:fontFamily="sans-serif"
+            android:text="Upload Image"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/registerationimg1"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

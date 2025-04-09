@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registerationactivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:fontFamily="@font/lobster_regular"
+                android:text="Create Vacancy"
+                android:textColor="@color/purple_700"
+                android:textSize="36sp"
+                android:elevation="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="vacancy.json"
+                app:lottie_loop="true" />
+
+            <EditText
+                android:id="@+id/vacancydetails_jobdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/whiteback"
+                android:drawableStart="@drawable/username"
+                android:elevation="30dp"
+                android:ems="10"
+                android:hint="Job Description"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:shadowColor="#3A00FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+            <EditText
+                android:id="@+id/vacancydetails_developertype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/whiteback"
+                android:drawableStart="@drawable/company"
+                android:elevation="30dp"
+                android:ems="10"
+                android:hint="Type of Developer Required"
+                android:inputType="text|textLongMessage"
+                android:padding="10dp"
+                android:shadowColor="#3A00FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vacancydetails_jobdesc" />
+
+            <EditText
+                android:id="@+id/vacancydetails_wrkinghours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/whiteback"
+                android:drawableStart="@drawable/companyaddress"
+                android:elevation="30dp"
+                android:ems="10"
+                android:hint="Working(Fulltime / Partime)"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:shadowColor="#3A00FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vacancydetails_developertype" />
+
+            <EditText
+                android:id="@+id/vacancydetails_applicantno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/whiteback"
+                android:drawableStart="@drawable/tagline"
+                android:elevation="30dp"
+                android:ems="10"
+                android:hint=" Applicant  Required eg. 3"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:shadowColor="#3A00FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vacancydetails_wrkinghours" />
+
+
+            <Button
+                android:id="@+id/vdbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/signinbtn"
+                android:elevation="10dp"
+                android:fontFamily="@font/merriweather"
+                android:shadowColor="#3A00FF"
+                android:text="Register Vacancy"
+                android:backgroundTint="#016AFE"
+                android:textColor="@color/profileBackground"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vacancydetails_applicantno" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

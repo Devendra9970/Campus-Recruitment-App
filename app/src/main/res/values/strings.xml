@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CampusRecruitmentUser</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="login_name_hint">Name</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+
+
+    <string name="input_error_name">name required</string>
+    <string name="input_error_address">Adress required</string>
+    <string name="input_error_tagline">Tagline required</string>
+    <string name="input_error_description">Description required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+
+    <string name="degreepercentage">Degree Percentage</string>
+    <string name="Achievements1">Achievement1</string>
+    <string name="Achievements2">Achievement2</string>
+    <string name="input_error_developertype">Type Of Developer required</string>
+    <string name="input_error_Workinghr">Working Hour Field required</string>
+    <string name="input_error_applicantno">Applicant No required</string>
+    <string name="input_error_jobdescription">Job Description required</string>
+</resources>

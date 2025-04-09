@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/studNamevi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Name"
+                        android:textColor="#000000"
+                        android:textSize="24sp"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/studemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Email"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/studphno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Phone Number"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/studImage"
+                    android:src="@drawable/profile"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4c4c4c"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="Work Experience"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/studExp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Experience "
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/studExp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Experience "
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/studExp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Experience "
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/studExp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Experience "
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                />
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4c4c4c"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="Technical Skills"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language Known:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/languageknownvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Language Known"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operating System Known:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/osknownvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operating System Known"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Database Known:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/dbknownvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="Database Known"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4c4c4c"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="Educational Qualification"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Name:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/schoolnamevi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="School Name"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="School Passing Year:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/schoolpassingvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="School Passing Year"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SSC Percentage:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/sscpervi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="SSC Percentage"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Degree College Name:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/degreeclgvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="Degree College Name"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Degree Passing Year:"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/degreepassvi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="Degree Passing Year"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/degreepercentage"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/degreepervi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="Degree Percentage"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#4c4c4c"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="Achievements"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Achievements1"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/achievement1vi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="@string/Achievements1"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Achievements2"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+
+                />
+
+            <TextView
+                android:id="@+id/achievement2vi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="@string/Achievements2"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achievement3"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/achievement3vi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="5dp"
+                android:text="Achievement3"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Achievement4"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#686868"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:id="@+id/achievement4vi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="10dp"
+                android:textColor="#000000"
+                android:paddingBottom="15dp"
+                android:text="Achievement4"
+
+                />
+
+            <View style="@style/proifleDetailsView" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/studpro_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Accept"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:background="#C700FC"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="0.5"/>
+
+                <Button
+                    android:id="@+id/studreject_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Reject"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:background="#C700FC"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
