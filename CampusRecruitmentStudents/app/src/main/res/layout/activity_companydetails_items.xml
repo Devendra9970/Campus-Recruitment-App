@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            style="@style/headerText"
+            android:text="Account Info"
+            android:layout_marginBottom="20dp"/>
+
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/companynameimg"
+                android:src="@drawable/companyimg"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:text="Name"
+                android:layout_toRightOf="@id/companynameimg"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/content_Companyname"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/companynameimg"
+                android:text="developer" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/Address"
+                android:src="@drawable/address"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Address"
+                android:layout_toRightOf="@id/Address"
+                style="@style/profileDetailsTextMain"/>
+
+            <TextView
+                android:id="@+id/content_address"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/Address"
+                android:text="Address Here" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/jobdescriptionimageview"
+                android:src="@drawable/jobdescription"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Job Description"
+                android:layout_toRightOf="@id/jobdescriptionimageview"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/content_description"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/jobdescriptionimageview"
+                android:text="Hello This is our company" />
+
+        </RelativeLayout>
+
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/devtype"
+                android:src="@drawable/developertype"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Type of Developer Required"
+                android:layout_toRightOf="@id/devtype"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/content_devtype"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/devtype"
+                android:text="Android Developer/Web Developer" />
+
+        </RelativeLayout>
+
+
+
+        <View style="@style/proifleDetailsView" />
+
+        <RelativeLayout
+            android:id="@+id/rlabout"
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/wrkinghrs"
+                android:src="@drawable/workinghrs"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Working Hours"
+                android:layout_toRightOf="@id/wrkinghrs"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/content_workingHours"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/wrkinghrs"
+                android:text="Fulltime/PartTime" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout
+            android:id="@+id/rlogout"
+            style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/applicantreq"
+                android:src="@drawable/applicantreq"
+                style="@style/profileDetailsImage" />
+
+            <TextView
+                android:text="Applicant Required"
+                android:layout_toRightOf="@id/applicantreq"
+                style="@style/profileDetailsTextMain" />
+
+            <TextView
+                android:id="@+id/content_applicantrequired"
+                style="@style/profileDetailsMiniText"
+                android:layout_toRightOf="@id/applicantreq"
+                android:text="NO os Applicants" />
+
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <Button
+            android:id="@+id/content_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Apply"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="right"/>
+        <View style="@style/proifleDetailsView" />
+        <View style="@style/proifleDetailsView" />
+        <View style="@style/proifleDetailsView" />
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
